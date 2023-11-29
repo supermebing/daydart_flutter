@@ -48,15 +48,13 @@ class DayDart {
         _date = DateTime.parse(date);
         return;
       }
-      throw new Exception(
-          'date type is not [DayDart, DateTime, int[13 || 16], String]');
+      throw new Exception('date type is not [DayDart, DateTime, int[13 || 16], String]');
     } on Exception catch (e) {
       throw e;
     }
   }
 
-  List<String> get weekdays =>
-      ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  List<String> get weekdays => ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
   DateTime get $d {
     return _date;
@@ -213,6 +211,8 @@ class DayDart {
       case DayUnits.ms:
         millisecond($ms + num);
         break;
+      case DayUnits.w:
+      // TODO: Handle this case.
     }
     return clone();
   }
@@ -241,6 +241,8 @@ class DayDart {
       case DayUnits.ms:
         millisecond($ms - num);
         break;
+      case DayUnits.w:
+      // TODO: Handle this case.
     }
     return clone();
   }
@@ -347,6 +349,8 @@ class DayDart {
       case DayUnits.ms:
         valid = isSameMillisecond(d);
         break;
+      case DayUnits.w:
+      // TODO: Handle this case.
     }
     return valid;
   }
@@ -377,6 +381,8 @@ class DayDart {
       case DayUnits.ms:
         valid = isBeforeMillisecond(d);
         break;
+      case DayUnits.w:
+      // TODO: Handle this case.
     }
     return valid;
   }
@@ -407,6 +413,8 @@ class DayDart {
       case DayUnits.ms:
         valid = isAfterMillisecond(d);
         break;
+      case DayUnits.w:
+      // TODO: Handle this case.
     }
     return valid;
   }
@@ -552,9 +560,7 @@ class DayDart {
   /// The last day of a given month
   DayDart lastDayOfMonth([Object? date]) {
     DayDart d = clone(date)..hour(12);
-    var beginningNextMonth = (d.month() < 12)
-        ? clone(DateTime(d.year(), d.month() + 1, 1))
-        : clone(DateTime(d.year() + 1, 1, 1));
+    var beginningNextMonth = (d.month() < 12) ? clone(DateTime(d.year(), d.month() + 1, 1)) : clone(DateTime(d.year() + 1, 1, 1));
     return beginningNextMonth.subtract(1, DayUnits.D);
   }
 
@@ -622,15 +628,7 @@ class DayDart {
 
   /// 转Map
   Map<String, int> toMap() {
-    return {
-      'years': $y,
-      'months': $M,
-      'date': $D,
-      'hours': $h,
-      'minutes': $m,
-      'seconds': $s,
-      'milliseconds': $ms
-    };
+    return {'years': $y, 'months': $M, 'date': $D, 'hours': $h, 'minutes': $m, 'seconds': $s, 'milliseconds': $ms};
   }
 
   @override

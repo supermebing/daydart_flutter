@@ -1,11 +1,11 @@
-[English](https://github.com/csjiabin/daydart/blob/main/README.md) | [简体中文](https://github.com/csjiabin/daydart/blob/main/README.zh-CN.md)
+[English](https://github.com/supermebing/daydart_flutter/blob/main/README.md) | [简体中文](https://github.com/supermebing/daydart_flutter/blob/main/README.zh-CN.md)
 
 # DayDart
 
 具备 Day.js 一样 API 的时间处理库.
 
-![https://img.shields.io/github/license/csjiabin/daydart.svg](https://img.shields.io/github/license/csjiabin/daydart.svg)
-![https://img.shields.io/github/issues/csjiabin/daydart.svg](https://img.shields.io/github/issues/csjiabin/daydart.svg)
+![https://img.shields.io/github/license/csjiabin/daydart.svg](https://img.shields.io/github/license/supermebing/daydart_flutter.svg)
+![https://img.shields.io/github/issues/csjiabin/daydart.svg](https://img.shields.io/github/issues/supermebing/daydart_flutter.svg)
 
 ## Getting Started
 
