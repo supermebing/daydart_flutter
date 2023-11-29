@@ -1,11 +1,11 @@
-[English](https://github.com/csjiabin/daydart/blob/main/README.md) | [Chinese](https://github.com/csjiabin/daydart/blob/main/README.zh-CN.md)
+[English](https://github.com/supermebing/daydart_flutter/blob/main/README.md) | [简体中文](https://github.com/supermebing/daydart_flutter/blob/main/README.zh-CN.md)
 
 # DayDart
 
 Time-handling library with day.js API.
 
-![https://img.shields.io/github/license/csjiabin/daydart.svg](https://img.shields.io/github/license/csjiabin/daydart.svg)
-![https://img.shields.io/github/issues/csjiabin/daydart.svg](https://img.shields.io/github/issues/csjiabin/daydart.svg)
+![https://img.shields.io/github/license/supermebing/daydart_flutter.svg](https://img.shields.io/github/license/supermebing/daydart_flutter.svg)
+![https://img.shields.io/github/issues/supermebing/daydart_flutter.svg](https://img.shields.io/github/issues/supermebing/daydart_flutter.svg)
 
 ## Getting Started
 
@@ -529,4 +529,4 @@ DayDart('2019-01-25').toString() // 2019-01-25 00:00:00.000
 
 This project will be updated continuously. Your valuable comments are welcome.
 
-[Issues](https://github.com/csjiabin/daydart/issues)
+[Issues](https://github.com/supermebing/daydart_flutter/issues)

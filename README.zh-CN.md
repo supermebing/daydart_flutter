@@ -4,8 +4,8 @@
 
 具备 Day.js 一样 API 的时间处理库.
 
-![https://img.shields.io/github/license/csjiabin/daydart.svg](https://img.shields.io/github/license/supermebing/daydart_flutter.svg)
-![https://img.shields.io/github/issues/csjiabin/daydart.svg](https://img.shields.io/github/issues/supermebing/daydart_flutter.svg)
+![https://img.shields.io/github/license/supermebing/daydart_flutter.svg](https://img.shields.io/github/license/supermebing/daydart_flutter.svg)
+![https://img.shields.io/github/issues/supermebing/daydart_flutter.svg](https://img.shields.io/github/issues/supermebing/daydart_flutter.svg)
 
 ## Getting Started
 
@@ -529,4 +529,4 @@ DayDart('2019-01-25').toString() // 2019-01-25 00:00:00.000
 
 本项目将会持续更新，欢迎大家来提出宝贵的意见。
 
-[Issues](https://github.com/csjiabin/daydart/issues)
+[Issues](https://github.com/supermebing/daydart_flutter/issues)

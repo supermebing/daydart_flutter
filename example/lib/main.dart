@@ -1,4 +1,4 @@
-import 'package:daydart/daydart.dart';
+import 'package:daydart_flutter/daydart.dart';
 import 'package:flutter/material.dart';
 
 void main() {
